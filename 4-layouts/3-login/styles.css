@@ -1,0 +1,51 @@
+/*
+  LAYOUT 3 · LOGIN
+
+  Abre Tests.html en el navegador: veras la captura del objetivo, tu maqueta con tus estilos
+  y debajo los tests. Escribe las reglas justo debajo de cada paso.
+
+  El HTML ya esta hecho (lo tienes en Tests.html), con esta estructura:
+
+  .pagina
+  ├── .menu
+  │   ├── a  (3 enlaces)
+  │   └── .menu-avatar
+  └── .tarjeta
+      ├── .avatar
+      ├── .titulo
+      ├── .campo  (2 inputs)
+      └── .enlaces
+
+  La imagen de fondo esta en images/background.jpeg
+*/
+
+
+/* Ejercicio 11 · Fondo
+   .pagina mide 600px de alto y tiene de fondo la imagen images/background.jpeg,
+   cubriendo toda la caja sin deformarse */
+
+
+/* Ejercicio 12 · Menu
+   - .menu queda arriba a la derecha de .pagina, a 20px del borde de arriba y a 20px del borde derecho
+   - sus enlaces van en fila, separados 12px, en color blanco y sin subrayado
+   - .menu-avatar es un circulo de 40px */
+
+
+/* Ejercicio 13 · Tarjeta
+   .tarjeta mide 360px de ancho y 460px de alto, queda centrada horizontalmente en .pagina
+   y a 80px del borde de arriba de .pagina.
+   Su fondo es negro semitransparente (que se vea la imagen de detras) y tiene esquinas redondeadas de 6px
+   Ayuda: si le pones margin-top a la tarjeta y lo que baja es toda la pagina, investiga "margin collapse"
+   (una solucion es usar padding-top en .pagina) */
+
+
+/* Ejercicio 14 · Avatar
+   .avatar es un circulo de 160px centrado horizontalmente en la tarjeta,
+   y sobresale por arriba: su centro queda justo a la altura del borde de arriba de .tarjeta */
+
+
+/* Ejercicio 15 · Formulario
+   - .titulo es de color blanco y esta centrado
+   - cada .campo ocupa el ancho de la tarjeta menos 35px a cada lado, tiene el texto centrado
+     y esquinas redondeadas de 4px
+   - entre los dos .campo hay 12px de separacion */

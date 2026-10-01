@@ -10,4 +10,4 @@
 
 No cambies los nombres de las clases: los tests las buscan por su nombre.
 
-Cuando esté todo en verde, pasa a [`4-dom`](../4-dom).
+Cuando esté todo en verde, pasa a [`4-layouts`](../4-layouts).

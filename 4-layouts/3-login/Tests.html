@@ -2,16 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>CasasCode – Nivel 4 · DOM</title>
+    <title>CasasCode – Nivel 4 · Layouts · 3 · Login</title>
 
-    <link rel="shortcut icon" type="image/png" href="../logo.png" />
-    <link rel="stylesheet" href="../jasmine/jasmine-2.8.0/jasmine.css" />
+    <link rel="shortcut icon" type="image/png" href="../../logo.png" />
+    <link rel="stylesheet" href="../../jasmine/jasmine-2.8.0/jasmine.css" />
 
-    <script src="../jasmine/jasmine-2.8.0/jasmine.js"></script>
-    <script src="../jasmine/jasmine-2.8.0/jasmine-html.js"></script>
-    <script src="../jasmine/jasmine-2.8.0/boot.js"></script>
+    <script src="../../jasmine/jasmine-2.8.0/jasmine.js"></script>
+    <script src="../../jasmine/jasmine-2.8.0/jasmine-html.js"></script>
+    <script src="../../jasmine/jasmine-2.8.0/boot.js"></script>
 
-    <script src="src/ejercicios.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="../medidas.js"></script>
     <script src="tests/ejercicios.spec.js"></script>
 
     <style>
@@ -97,16 +98,70 @@
       .jasmine_html-reporter .jasmine-suite a { color: #1a5fa8; font-weight: bold; }
       .jasmine_html-reporter .jasmine-summary li.jasmine-passed a { color: #27ae60; }
       .jasmine_html-reporter .jasmine-summary li.jasmine-failed a  { color: #a03030; }
+
+      .zona-de-trabajo {
+        margin: 16px;
+        padding: 16px;
+        background: #ffffff;
+        border: 1px solid #d0d7de;
+        border-radius: 8px;
+        font-family: Arial, sans-serif;
+      }
+
+      .zona-de-trabajo h2.etiqueta {
+        margin: 0 0 12px;
+        color: #0a1f3d;
+        font-size: 14px;
+        text-transform: uppercase;
+      }
+
+      .zona-de-trabajo .objetivo {
+        display: block;
+        max-width: 600px;
+        width: 100%;
+        border: 1px solid #d0d7de;
+        border-radius: 6px;
+      }
+
+      #maqueta {
+        width: 900px;
+      }
     </style>
   </head>
 
   <body>
     <div id="casascode-header">
-      <img src="../logo.png" alt="CasasCode logo" />
+      <img src="../../logo.png" alt="CasasCode logo" />
       <div class="header-text">
         <h1><span>Casas</span>Code</h1>
-        <p>Nivel 4 · DOM</p>
+        <p>Nivel 4 · Layouts · 3 · Login</p>
       </div>
     </div>
+
+    <section class="zona-de-trabajo">
+      <h2 class="etiqueta">Objetivo</h2>
+      <img class="objetivo" src="objetivo.png" alt="Layout que tienes que conseguir" />
+    </section>
+
+    <section class="zona-de-trabajo">
+      <h2 class="etiqueta">Tu maqueta</h2>
+      <div id="maqueta">
+      <div class="pagina">
+        <nav class="menu">
+          <a href="#">HOME</a>
+          <a href="#">SERVICES</a>
+          <a href="#">JOIN</a>
+          <img class="menu-avatar" src="images/background.jpeg" alt="Avatar del menu" />
+        </nav>
+        <div class="tarjeta">
+          <img class="avatar" src="images/background.jpeg" alt="Avatar" />
+          <h1 class="titulo">Cool App Sign In</h1>
+          <input class="campo" placeholder="Username" />
+          <input class="campo" type="password" placeholder="Password" />
+          <p class="enlaces"><a href="#">Login</a> | <a href="#">Forgot Password</a></p>
+        </div>
+      </div>
+      </div>
+    </section>
   </body>
 </html>

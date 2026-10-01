@@ -1,13 +1,13 @@
-# Ejercicios CasasCode · De cero al DOM
+# Ejercicios CasasCode · De cero a maquetar
 
-60 ejercicios para practicar programación web paso a paso, repartidos en 4 niveles de 15 ejercicios cada uno.
+60 ejercicios para practicar JavaScript y CSS paso a paso, repartidos en 4 niveles de 15 ejercicios cada uno.
 
 | Nivel | Carpeta | Qué vas a practicar | Dónde escribes |
 |---|---|---|---|
 | 1 | [`1-basicos`](1-basicos) | Funciones, condiciones, bucles, arrays y objetos | `src/ejercicios.js` |
 | 2 | [`2-funcionales`](2-funcionales) | `map`, `filter`, `find`, `reduce`, `some`, `every` y `sort` | `src/ejercicios.js` |
 | 3 | [`3-css`](3-css) | Colores, tamaños, cajas, flexbox y grid | `styles.css` |
-| 4 | [`4-dom`](4-dom) | Leer y modificar la página, clases, crear elementos y eventos | `src/ejercicios.js` |
+| 4 | [`4-layouts`](4-layouts) | Maquetar páginas completas con flexbox y grid: 3 layouts de 5 pasos | `styles.css` de cada layout |
 
 Dentro de cada nivel los ejercicios van de menos a más: los primeros son de calentamiento y los últimos son pequeños retos que mezclan todo lo anterior.
 

@@ -1,0 +1,53 @@
+/*
+  LAYOUT 1 · TWINS
+
+  Abre Tests.html en el navegador: veras la captura del objetivo, tu maqueta con tus estilos
+  y debajo los tests. Escribe las reglas justo debajo de cada paso.
+
+  El HTML ya esta hecho (lo tienes en Tests.html), con esta estructura:
+
+  .contenedor
+  ├── .header
+  ├── .centro
+  │   ├── .fila-principal
+  │   │   ├── .main-content
+  │   │   └── .sidebar
+  │   └── .fila-twins
+  │       ├── .twin
+  │       └── .twin
+  └── .footer
+
+  Puedes resolverlo con flexbox o con grid: los tests solo miran donde acaba cada caja y cuanto mide.
+*/
+
+
+/* Ejercicio 1 · Colores
+   Pon estos colores de fondo y haz que el texto de todas las cajas sea blanco:
+   - .header       #52a7f8
+   - .main-content #72c043
+   - .sidebar      #b46ce3
+   - .twin         #f2901b
+   - .footer       #0465c1 */
+
+
+/* Ejercicio 2 · Cabecera y pie
+   .header y .footer ocupan todo el ancho de .contenedor y miden 80px de alto en total */
+
+
+/* Ejercicio 3 · Zona central
+   .centro mide el 60% del ancho de .contenedor y queda centrado horizontalmente
+   (el mismo espacio libre a la izquierda que a la derecha) */
+
+
+/* Ejercicio 4 · Contenido y barra lateral
+   .main-content y .sidebar van en la misma fila, ocupando entre los dos todo el ancho de .centro:
+   - los dos miden 220px de alto
+   - .main-content es el doble de ancho que .sidebar
+   - hay 4px de separacion entre ellos */
+
+
+/* Ejercicio 5 · Los gemelos
+   Los dos .twin van debajo de la fila anterior, uno al lado del otro, ocupando entre los dos todo el ancho de .centro:
+   - los dos miden lo mismo de ancho y 160px de alto
+   - hay 4px de separacion entre ellos
+   - hay 4px de separacion con la fila de arriba */

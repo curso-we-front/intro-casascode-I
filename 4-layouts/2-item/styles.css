@@ -1,0 +1,52 @@
+/*
+  LAYOUT 2 · ITEM
+
+  Abre Tests.html en el navegador: veras la captura del objetivo, tu maqueta con tus estilos
+  y debajo los tests. Escribe las reglas justo debajo de cada paso.
+
+  El HTML ya esta hecho (lo tienes en Tests.html), con esta estructura:
+
+  .pagina
+  ├── .header
+  ├── .cuerpo
+  │   ├── .main
+  │   │   ├── .titulo
+  │   │   └── .items
+  │   │       └── .item  (11 veces)
+  │   └── .sidebar
+  └── .footer
+
+  Puedes resolverlo con flexbox o con grid: los tests solo miran donde acaba cada caja y cuanto mide.
+*/
+
+
+/* Ejercicio 6 · Colores y esquinas
+   Pon estos colores de fondo, esquinas redondeadas de 10px y texto blanco a estas cinco clases:
+   - .header  #2a94fc
+   - .main    #43b171
+   - .sidebar #fe6450
+   - .item    #33885a
+   - .footer  #446fdb */
+
+
+/* Ejercicio 7 · Espacios entre bloques
+   - .pagina tiene 30px de espacio interior (padding) por los cuatro lados
+   - .header, .cuerpo y .footer quedan separados 30px entre si
+   - .header, .main, .sidebar y .footer tienen 30px de espacio interior por los cuatro lados */
+
+
+/* Ejercicio 8 · Contenido y barra lateral
+   .main y .sidebar van en la misma fila, ocupando entre los dos todo el ancho de .cuerpo:
+   - .sidebar mide 240px de ancho y .main ocupa todo el resto
+   - hay 30px de separacion entre ellos
+   - los dos miden lo mismo de alto
+   Ayuda: si .sidebar te mide 300px en vez de 240px, es por el padding: investiga box-sizing */
+
+
+/* Ejercicio 9 · La rejilla de items
+   Dentro de .items, los .item se colocan en 4 columnas del mismo ancho,
+   con 30px de separacion entre columnas y entre filas */
+
+
+/* Ejercicio 10 · Cada item
+   Cada .item mide 120px de alto y su texto queda centrado en horizontal y en vertical */
