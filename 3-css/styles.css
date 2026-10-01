@@ -1,0 +1,72 @@
+/*
+  Abre Tests.html en el navegador: arriba veras la maqueta con tus estilos aplicados
+  y abajo los tests. Escribe cada regla justo debajo de su enunciado.
+  No cambies los nombres de las clases: los tests las buscan por su nombre.
+*/
+
+
+/* Ejercicio 1
+   Haz que el texto de la clase .titulo sea de color #e74c3c */
+
+
+/* Ejercicio 2
+   Haz que la clase .subtitulo tenga un tamaño de letra de 28px */
+
+
+/* Ejercicio 3
+   Pon en negrita el texto de la clase .destacado */
+
+
+/* Ejercicio 4
+   Dale a la clase .caja un color de fondo #f1c40f */
+
+
+/* Ejercicio 5
+   Dale a la clase .tarjeta un espacio interior (padding) de 16px por los cuatro lados */
+
+
+/* Ejercicio 6
+   Redondea las esquinas de la clase .boton con un radio de 8px */
+
+
+/* Ejercicio 7
+   Haz que los elementos con la clase .oculto no se muestren en la pagina
+   (que no ocupen espacio, no basta con hacerlos transparentes) */
+
+
+/* Ejercicio 8
+   Centra horizontalmente el texto de la clase .centrado */
+
+
+/* Ejercicio 9
+   Haz que los hijos de la clase .fila se coloquen uno al lado del otro usando flexbox */
+
+
+/* Ejercicio 10
+   Haz que los hijos de la clase .fila-espaciada se coloquen en fila con flexbox,
+   uno pegado a la izquierda y otro pegado a la derecha (el espacio sobrante, repartido entre ellos) */
+
+
+/* Ejercicio 11
+   Haz que los hijos de la clase .columna se coloquen uno debajo del otro usando flexbox */
+
+
+/* Ejercicio 12
+   Haz que el contenido de la clase .centrar-todo quede centrado en horizontal y en vertical usando flexbox */
+
+
+/* Ejercicio 13
+   Convierte la clase .rejilla en un grid de 3 columnas del mismo ancho */
+
+
+/* Ejercicio 14
+   Haz que la imagen con la clase .imagen-redonda mida 100px de ancho y 100px de alto
+   y que se vea como un circulo */
+
+
+/* Ejercicio 15
+   Dale estilo de boton principal a la clase .boton-primario:
+   - color de fondo #3498db
+   - texto de color blanco
+   - padding de 10px arriba y abajo y 20px a izquierda y derecha
+   - sin borde */

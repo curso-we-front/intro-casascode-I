@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CasasCode – Nivel 1 · Basicos</title>
+
+    <link rel="shortcut icon" type="image/png" href="../logo.png" />
+    <link rel="stylesheet" href="../jasmine/jasmine-2.8.0/jasmine.css" />
+
+    <script src="../jasmine/jasmine-2.8.0/jasmine.js"></script>
+    <script src="../jasmine/jasmine-2.8.0/jasmine-html.js"></script>
+    <script src="../jasmine/jasmine-2.8.0/boot.js"></script>
+
+    <script src="src/ejercicios.js"></script>
+    <script src="tests/ejercicios.spec.js"></script>
+
+    <style>
+      /* ── Header con logo ── */
+      body {
+        margin: 0;
+        font-family: Monaco, "Lucida Console", monospace;
+        background: #f0f2f5;
+      }
+
+      #casascode-header {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        background: #0a1f3d;
+        padding: 12px 20px;
+        border-bottom: 4px solid #f0a500;
+      }
+
+      #casascode-header img {
+        height: 72px;
+      }
+
+      #casascode-header .header-text h1 {
+        margin: 0;
+        color: #fff;
+        font-size: 20px;
+        font-family: Monaco, "Lucida Console", monospace;
+        letter-spacing: 1px;
+      }
+
+      #casascode-header .header-text h1 span {
+        color: #f0a500;
+      }
+
+      #casascode-header .header-text p {
+        margin: 2px 0 0;
+        color: #a8ccef;
+        font-size: 12px;
+      }
+
+      /* ── Override colores morados de Jasmine → azul CasasCode ── */
+      .jasmine_html-reporter {
+        background-color: #f0f2f5;
+        margin: 0;
+        padding: 10px;
+      }
+
+      .jasmine_html-reporter .jasmine-banner .jasmine-title {
+        display: none;
+      }
+
+      .jasmine_html-reporter .jasmine-run-options {
+        border-color: #1a5fa8;
+        color: #1a5fa8;
+      }
+
+      .jasmine_html-reporter .jasmine-run-options .jasmine-payload {
+        border-color: #1a5fa8;
+      }
+
+      .jasmine-labname {
+        background-color: #1a5fa8 !important;
+        border-bottom: 2px solid #f0a500;
+      }
+
+      /* Passed → verde, Failed → rojo suave */
+      .jasmine_html-reporter .jasmine-bar.jasmine-passed  { background-color: #007069; }
+      .jasmine_html-reporter .jasmine-bar.jasmine-failed  { background-color: #a03030; }
+
+      /* Símbolos: punto verde y X roja más visibles */
+      .jasmine_html-reporter .jasmine-symbol-summary li.jasmine-passed:before { color: #27ae60; }
+      .jasmine_html-reporter .jasmine-symbol-summary li.jasmine-failed:before { color: #a03030; }
+
+      /* Descripción del test fallido */
+      .jasmine_html-reporter .jasmine-failures .jasmine-spec-detail .jasmine-description { background-color: #a03030; }
+
+      /* Ocultar stack trace y versión */
+      .jasmine_html-reporter .jasmine-stack-trace { display: none; }
+      .jasmine_html-reporter .jasmine-version { display: none; }
+
+      /* Links de suite */
+      .jasmine_html-reporter .jasmine-suite a { color: #1a5fa8; font-weight: bold; }
+      .jasmine_html-reporter .jasmine-summary li.jasmine-passed a { color: #27ae60; }
+      .jasmine_html-reporter .jasmine-summary li.jasmine-failed a  { color: #a03030; }
+    </style>
+  </head>
+
+  <body>
+    <div id="casascode-header">
+      <img src="../logo.png" alt="CasasCode logo" />
+      <div class="header-text">
+        <h1><span>Casas</span>Code</h1>
+        <p>Nivel 1 · Basicos</p>
+      </div>
+    </div>
+  </body>
+</html>
