@@ -1,19 +1,18 @@
 # Ejercicios CasasCode · De cero a maquetar
 
-60 ejercicios para practicar JavaScript y CSS paso a paso, repartidos en 4 niveles de 15 ejercicios cada uno.
+45 ejercicios para practicar JavaScript y CSS paso a paso, repartidos en 3 niveles de 15 ejercicios cada uno.
 
 | Nivel | Carpeta | Qué vas a practicar | Dónde escribes |
 |---|---|---|---|
 | 1 | [`1-basicos`](1-basicos) | Funciones, condiciones, bucles, arrays y objetos | `src/ejercicios.js` |
 | 2 | [`2-funcionales`](2-funcionales) | `map`, `filter`, `find`, `reduce`, `some`, `every` y `sort` | `src/ejercicios.js` |
-| 3 | [`3-css`](3-css) | Colores, tamaños, cajas, flexbox y grid | `styles.css` |
-| 4 | [`4-layouts`](4-layouts) | Maquetar páginas completas con flexbox y grid: 3 layouts de 5 pasos | `styles.css` de cada layout |
+| 3 | [`3-css`](3-css) | Maquetar páginas completas con flexbox y grid: 3 layouts de 5 pasos | `styles.css` de cada layout |
 
 Dentro de cada nivel los ejercicios van de menos a más: los primeros son de calentamiento y los últimos son pequeños retos que mezclan todo lo anterior.
 
 ## Cómo funciona
 
-Cada carpeta tiene un archivo `Tests.html`. Ábrelo en el navegador (doble click basta, no necesitas instalar nada).
+Cada ejercicio se comprueba con un archivo `Tests.html` (en `3-css` hay uno dentro de cada layout). Ábrelo en el navegador (doble click basta, no necesitas instalar nada).
 
 Al principio verás todo en rojo. Cada vez que resuelvas un ejercicio, guarda el archivo y **refresca** `Tests.html`: los tests de ese ejercicio se pondrán en verde. Si alguno sigue en rojo, haz click en él para ver qué esperaba y qué ha recibido.
 

@@ -2,16 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>CasasCode – Nivel 3 · CSS</title>
+    <title>CasasCode – Nivel 3 · CSS · 3 · Login</title>
 
-    <link rel="shortcut icon" type="image/png" href="../logo.png" />
-    <link rel="stylesheet" href="../jasmine/jasmine-2.8.0/jasmine.css" />
+    <link rel="shortcut icon" type="image/png" href="../../logo.png" />
+    <link rel="stylesheet" href="../../jasmine/jasmine-2.8.0/jasmine.css" />
 
-    <script src="../jasmine/jasmine-2.8.0/jasmine.js"></script>
-    <script src="../jasmine/jasmine-2.8.0/jasmine-html.js"></script>
-    <script src="../jasmine/jasmine-2.8.0/boot.js"></script>
+    <script src="../../jasmine/jasmine-2.8.0/jasmine.js"></script>
+    <script src="../../jasmine/jasmine-2.8.0/jasmine-html.js"></script>
+    <script src="../../jasmine/jasmine-2.8.0/boot.js"></script>
 
     <link rel="stylesheet" href="styles.css" />
+    <script src="../medidas.js"></script>
     <script src="tests/ejercicios.spec.js"></script>
 
     <style>
@@ -98,7 +99,7 @@
       .jasmine_html-reporter .jasmine-summary li.jasmine-passed a { color: #27ae60; }
       .jasmine_html-reporter .jasmine-summary li.jasmine-failed a  { color: #a03030; }
 
-      #maqueta {
+      .zona-de-trabajo {
         margin: 16px;
         padding: 16px;
         background: #ffffff;
@@ -107,50 +108,60 @@
         font-family: Arial, sans-serif;
       }
 
-      #maqueta > * {
-        margin-bottom: 12px;
-      }
-
-      #maqueta .maqueta-cabecera {
-        margin-top: 0;
+      .zona-de-trabajo h2.etiqueta {
+        margin: 0 0 12px;
         color: #0a1f3d;
         font-size: 14px;
         text-transform: uppercase;
       }
 
-      #maqueta .centrar-todo {
-        height: 80px;
-        border: 1px dashed #d0d7de;
+      .zona-de-trabajo .objetivo {
+        display: block;
+        max-width: 600px;
+        width: 100%;
+        border: 1px solid #d0d7de;
+        border-radius: 6px;
+      }
+
+      #maqueta {
+        width: 900px;
       }
     </style>
   </head>
 
   <body>
     <div id="casascode-header">
-      <img src="../logo.png" alt="CasasCode logo" />
+      <img src="../../logo.png" alt="CasasCode logo" />
       <div class="header-text">
         <h1><span>Casas</span>Code</h1>
-        <p>Nivel 3 · CSS</p>
+        <p>Nivel 3 · CSS · 3 · Login</p>
       </div>
     </div>
 
-    <section id="maqueta">
-      <h2 class="maqueta-cabecera">Tu maqueta</h2>
-      <h1 class="titulo">Ejercicio 1 · Titulo</h1>
-      <h2 class="subtitulo">Ejercicio 2 · Subtitulo</h2>
-      <p>Ejercicio 3 · Un texto con una parte <span class="destacado">destacada</span></p>
-      <div class="caja">Ejercicio 4 · Caja</div>
-      <div class="tarjeta">Ejercicio 5 · Tarjeta</div>
-      <button class="boton">Ejercicio 6 · Boton</button>
-      <p class="oculto">Ejercicio 7 · Si me ves, todavia no esta resuelto</p>
-      <p class="centrado">Ejercicio 8 · Texto centrado</p>
-      <div class="fila"><span>Ejercicio 9 ·</span><span>Uno</span><span>Dos</span><span>Tres</span></div>
-      <div class="fila-espaciada"><span>Ejercicio 10 · Izquierda</span><span>Derecha</span></div>
-      <div class="columna"><span>Ejercicio 11 · Arriba</span><span>Abajo</span></div>
-      <div class="centrar-todo"><span>Ejercicio 12 · En el centro</span></div>
-      <div class="rejilla"><div>Ejercicio 13</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div></div>
-      <img class="imagen-redonda" src="../logo.png" alt="Ejercicio 14" />
-      <button class="boton-primario">Ejercicio 15 · Boton primario</button>
+    <section class="zona-de-trabajo">
+      <h2 class="etiqueta">Objetivo</h2>
+      <img class="objetivo" src="objetivo.png" alt="Layout que tienes que conseguir" />
+    </section>
+
+    <section class="zona-de-trabajo">
+      <h2 class="etiqueta">Tu maqueta</h2>
+      <div id="maqueta">
+      <div class="pagina">
+        <nav class="menu">
+          <a href="#">HOME</a>
+          <a href="#">SERVICES</a>
+          <a href="#">JOIN</a>
+          <img class="menu-avatar" src="images/background.jpeg" alt="Avatar del menu" />
+        </nav>
+        <div class="tarjeta">
+          <img class="avatar" src="images/background.jpeg" alt="Avatar" />
+          <h1 class="titulo">Cool App Sign In</h1>
+          <input class="campo" placeholder="Username" />
+          <input class="campo" type="password" placeholder="Password" />
+          <p class="enlaces"><a href="#">Login</a> | <a href="#">Forgot Password</a></p>
+        </div>
+      </div>
+      </div>
     </section>
   </body>
 </html>

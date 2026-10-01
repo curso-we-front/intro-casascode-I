@@ -1,13 +1,17 @@
 # Nivel 3 · CSS
 
-15 ejercicios para dar estilo a una página: colores, tamaños de letra, espacios, flexbox y grid.
+3 layouts reales para maquetar de principio a fin, cada uno dividido en 5 pasos (15 ejercicios en total):
+
+| Layout | Carpeta | Qué vas a practicar |
+|---|---|---|
+| Twins | [`1-twins`](1-twins) | Zona central centrada, columnas en proporción 2:1 y dos cajas gemelas |
+| Item | [`2-item`](2-item) | Espaciados con gap, barra lateral de ancho fijo y una rejilla de items |
+| Login | [`3-login`](3-login) | Imagen de fondo, menú en una esquina, tarjeta centrada y un avatar que sobresale |
 
 ## Cómo hacerlo
 
-1. Abre `Tests.html` en el navegador. Arriba verás **tu maqueta** (los elementos a los que vas a dar estilo) y abajo los tests en rojo.
-2. Abre `styles.css`. Cada bloque de comentarios es un ejercicio: escribe la regla CSS justo debajo.
-3. Guarda y refresca `Tests.html`. Verás el cambio en la maqueta y el test se pondrá en verde.
+1. Entra en la carpeta del layout y abre `Tests.html` en el navegador. Verás arriba la captura del **objetivo**, debajo **tu maqueta** y al final los tests en rojo.
+2. Abre `styles.css` de esa misma carpeta. Cada bloque de comentarios es un paso: escribe las reglas justo debajo.
+3. Guarda y refresca `Tests.html`. Verás cómo tu maqueta se va pareciendo al objetivo y los tests se ponen en verde.
 
-No cambies los nombres de las clases: los tests las buscan por su nombre.
-
-Cuando esté todo en verde, pasa a [`4-layouts`](../4-layouts).
+El HTML ya está hecho: no lo cambies, solo escribe CSS. Puedes usar flexbox o grid, como prefieras: los tests no miran qué propiedades usas, sino dónde acaba cada caja y cuánto mide (con un margen de 2px).
